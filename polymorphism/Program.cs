@@ -6,7 +6,14 @@ namespace polymorphism
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int addedSumOfInts = AddTwoInts(7, 13);
+
+            Console.WriteLine("int: " + addedSumOfInts);
+        }
+
+        static int AddTwoInts(int x, int y)
+        {
+            return x + y;
         }
     }
 }
